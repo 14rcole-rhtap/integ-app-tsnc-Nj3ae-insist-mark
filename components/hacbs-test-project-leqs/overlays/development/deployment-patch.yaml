@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: hacbs-test-project-leqs
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rycole-appstudio/integration1-avkn-tenant/integ-app-tsnc/hacbs-test-project-leqs@sha256:9e97db85a1b073abcef7b09e22f0cc41e6ab3c8c98d73cbbfd164458de09c482
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
